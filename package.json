@@ -1,0 +1,34 @@
+{
+  "name": "SampleApp",
+  "version": "0.0.0",
+  "description": "twitter-nodejs",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.4.8",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "socket.io": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "twitter",
+    "nodejs"
+  ],
+  "author": "hk",
+  "license": "ISC",
+  "engines": {
+    "node": "0.10.23",
+    "npm": "1.3.21"
+  }
+}
